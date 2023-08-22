@@ -5,10 +5,10 @@ public class Asientos{
     int precio;
     int registro;
 
-    public void cambiarColor(String color){
-        String[] coloresValidos = new String[5]
-                coloresvalidos = ['rojo','verde','amarillo','negro','blanco']
-        if (color in coloresValidos){
+    public void cambiarColor(String color)
+    {
+       if (color == "rojo" || color == "verde" || color =="amarillo" || color == "negro" || color == " blanco")
+       {
             this.color = color
         }
     }
