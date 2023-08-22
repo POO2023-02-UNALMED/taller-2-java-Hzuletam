@@ -1,4 +1,4 @@
-pakage test
+package test;
 
 public class Asientos{
     String color;

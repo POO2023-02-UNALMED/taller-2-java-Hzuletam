@@ -1,4 +1,4 @@
-pakage test
+package test;
 import Motor;
 import Asiento;
 
@@ -31,5 +31,5 @@ public class Auto{
         }
 
     }
-    
+
 }
