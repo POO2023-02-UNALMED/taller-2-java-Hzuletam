@@ -11,15 +11,15 @@ public class Auto{
     int cantidadAsientos()
     {
         int numAsientos = 0;
-
-        for(int i = 0; i< asientos.lenght; i++){
-            if ( asientos[i] != null){
-                numAsientos++
+        for(int i = 0; i< asientos.lenght; i++)
+        {
+            if ( asientos[i] != null)
+            {
+                numAsientos++;
             }
 
         }
-        return numAsientos
-
+        return numAsientos;
     }
     public String verificarIntegridad() {
         if (registro == motor.registro)
